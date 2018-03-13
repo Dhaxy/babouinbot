@@ -21,7 +21,9 @@ public class BotCore {
             throw new IllegalArgumentException("This bot needs at least 1 argument.");
 
         INSTANCE = login(args[0]);
-        new onConnect(client);
+        //new onConnect(client);
+        new onMessageReceived(client);
+        new onNewUser(client);
     }
 
     public BotCore(IDiscordClient client) {
