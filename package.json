@@ -1,0 +1,24 @@
+{
+  "name": "babouinbot",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "A discord JS bot for the jungle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhaxy/babouinbot.git"
+  },
+  "author": "arsene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhaxy/babouinbot/issues"
+  },
+  "homepage": "https://github.com/Dhaxy/babouinbot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.0",
+    "server": "^1.0.18"
+  }
+}
